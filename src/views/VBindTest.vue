@@ -348,7 +348,9 @@ const opacity = ref(1);
 const rotation = ref(0);
 
 // 속성 바인딩
-const imageUrl = ref("https://via.placeholder.com/300x200?text=Sample+Image");
+const imageUrl = ref(
+  "https://unsplash.com/photos/CS3WuMvmGfE/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzYzNDIzOTM3fA&force=true&w=640"
+);
 const linkUrl = ref("https://example.com");
 const dataValue = ref("sample-data");
 
