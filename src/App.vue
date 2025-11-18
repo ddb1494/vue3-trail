@@ -21,6 +21,12 @@
       >
         🚀 API Test
       </router-link>
+      <router-link
+        to="/v-bind-test"
+        class="text-white font-semibold px-4 py-2 rounded-lg hover:bg-emerald-500 transition-all duration-300 hover:scale-105 active:scale-95"
+      >
+        🎨 v-bind Test
+      </router-link>
     </div>
   </nav>
   <main>

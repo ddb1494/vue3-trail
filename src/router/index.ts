@@ -6,6 +6,7 @@ import {
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import ApiTest from "../views/ApiTest.vue";
+import VBindTest from "../views/VBindTest.vue";
 
 const routes: RouteRecordRaw[] = [
   {
@@ -22,6 +23,11 @@ const routes: RouteRecordRaw[] = [
     path: "/api-test",
     name: "ApiTest",
     component: ApiTest,
+  },
+  {
+    path: "/v-bind-test",
+    name: "VBindTest",
+    component: VBindTest,
   },
 ];
 
